@@ -108,9 +108,9 @@ def over?(board)
   end
 end
 
-def winner (board)
+def winner
   index = []
-  index = won?(board)
+  index = won?(@board)
   if index == false
     return nil
   else
