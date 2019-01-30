@@ -123,7 +123,7 @@ def winner
 end
 
 def play
-  until over?(@board) == true
+  until over? == true
     turn(@board)
   end
 
