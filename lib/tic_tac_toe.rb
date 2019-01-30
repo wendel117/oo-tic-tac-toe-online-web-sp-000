@@ -124,7 +124,7 @@ end
 
 def play
   until over? == true
-    turn(@board)
+    turn
   end
 
   if won?(@board)
